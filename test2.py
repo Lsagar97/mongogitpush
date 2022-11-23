@@ -95,12 +95,15 @@ coll=db1['table']
 #d=coll.find({'$or': [{'item':'sketch pad'  }, {'qty':{'$gte': 75}}]})
 #coll.update_one({'item':'canvas'},{'$set':{'item':'likith'}})
 #d=coll.find({'item':'likith'})
-coll.delete_one({'item':'likith'})
-d= coll.find({'item':'likith'})
+c#oll.delete_one({'item':'likith'})
+d#= coll.find({'item':'likith'})
 
 
-for i in d:
-    print(i)
+f#or i in d:
+  #  print(i)
 
 
+show collections
 
+#client = pymongo.MongoClient("mongodb+srv://Lsagar97:<password>@cluster0.jvo7pib.mongodb.net/?retryWrites=true&w=majority")
+#db = client.test
