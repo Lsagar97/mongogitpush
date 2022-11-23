@@ -19,3 +19,6 @@ d=coll.find({'Dress_ID':})
 for i in d:
     print(i)
 
+
+    liki
+
